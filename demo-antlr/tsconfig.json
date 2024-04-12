@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "paths": {
+        "antlr4ts": ["node_modules/antlr4ts/index.d.ts"]
+      },
+      "baseUrl": "./"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
